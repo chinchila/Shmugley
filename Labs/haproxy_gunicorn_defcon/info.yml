@@ -1,0 +1,12 @@
+authors:
+  - bboe
+description: "https://uploooadit.oooverflow.io/"
+flag: "OOO{That girl thinks she's the queen of the neighborhood/She's got the hottest trike in town/That girl, she holds her head up so high}"
+healthcheck_http: 204
+public_files:
+  - app.py
+  - store.py
+service_name: "uploooadit"
+tags:
+  - web
+violates_flag_format: false
